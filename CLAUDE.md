@@ -139,8 +139,3 @@ except:
 6. 不要使用Agent, 永远不要使用agent, 请全部自己执行、查看
 7. 对于网络访问的链接, 如果是固定已知的链接, 直接用curl/wget, 不要用web fetch/search, web search/fetch只在通过关键词搜索或链接不明确的情况下使用
 8. 如果用户要求提交一段代码或内容, 必须执行`git push`, 单纯commit是不够的。(除非明确说先不要push)。另外, git commit信息禁止添加Co-Authored-By行, 不要包含claude模型、邮箱等信息
-
-## 6. 当前环境概况 (可能过时或不准确, 请勿过度依赖)
-
-conda环境有dev_260124, 主要是用来c++开发的, 有cmake。如果是python项目不要用这个环境。
-
